@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@biomejs/biome": "2.5.0",
+    "@types/bun": "latest",
+    "@types/express": "^5.0.6",
+    "prisma": "^7.8.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/adapter-neon": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "better-auth": "^1.6.20",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
